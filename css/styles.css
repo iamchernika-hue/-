@@ -1,12 +1,79 @@
+/* css variables */
+:root{
+    --color-brand: #819B57 ;
+    --color-brand-dark: #6A7D4B;
+    --color-primary-dark: #31261A;
+    --color-primary-white: #FAF4EA;
+}
+
+/* base */
+body {
+    color: var(--color-primary-dark);
+}
+
+ul{
+    list-style-type: none;
+}
+/* buttons */
 .button {
-    color: #FAF4EA;
-    background-color: rgba(129, 155, 87, 1);
-    border: 2px solid #819B57;
+    color: var(--color-primary-white);
+    background-color: var(--color-brand);
+    border: 2px solid var(--color-brand);
     border-radius: 8px;
     cursor: pointer;
 }
 
 .button:hover {
-    color:#465929;
+    color: var(--color-brand-dark);
     background-color: transparent;
 }
+/* links */
+ .nav-link {
+    color: var(--color-primary-white);
+ }
+
+ .nav-link:hover {
+    color: var(--color-brand);
+ }  
+/*hero-section*/
+ .hero-title {
+    color: var(--color-primary-white);
+ }
+
+ .hero-title .accent {
+    color: var(--color-brand);
+ }
+/*traditions-section*/
+ .traditions-list {
+    color: var(--color-primary-white);
+    background-color: var(--color-brand);
+ }
+/*sections-title*/
+.sections-title {
+        color: var(--color-primary-dark);
+    }
+
+.sections-title .accent {
+    color: var(--color-brand-dark);
+}
+
+/*sections-traditions*/
+.sections-text {
+    color: var(--color-primary-dark);
+}   
+
+.sections-text .accent {
+    color: var(--color-brand);
+}
+
+/*chefs-section*/
+.chef {
+    color: var(--color-primary-dark);
+}
+
+/*format-section*/
+.format {
+    color: var(--color-primary-white);
+}
+
+/*contact-section*/

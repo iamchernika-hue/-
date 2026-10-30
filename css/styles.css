@@ -9,6 +9,9 @@
 /* base */
 body {
     color: var(--color-primary-dark);
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 ul{
@@ -30,6 +33,7 @@ ul{
 /* links */
  .nav-link {
     color: var(--color-primary-white);
+    text-decoration: none;
  }
 
  .nav-link:hover {
@@ -38,6 +42,10 @@ ul{
 /*hero-section*/
  .hero-title {
     color: var(--color-primary-white);
+    text-align: center;
+    font-size: 128px;
+    font-weight: 900;
+    font-style: black;
  }
 
  .hero-title .accent {
@@ -64,6 +72,11 @@ ul{
 
 .sections-text .accent {
     color: var(--color-brand);
+    font-weight: 600;
+}
+
+.sections-text .accent-uppercase {
+    text-transform: uppercase;
 }
 
 /*chefs-section*/

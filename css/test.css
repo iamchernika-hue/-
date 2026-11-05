@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    padding: 16px 42px 16px 42px;
+    border: 10px solid black;
+    margin: 20px;
+}
+
+.box:last-child {
+    background-color: blue;
+}
+
+.box:nth-child(2) {
+    background-color: blue;
+}
+

@@ -2,21 +2,19 @@
     box-sizing: border-box;
 }
 
-.box {
-    display: inline-block;
-    width: 100px;
-    height: 100px;
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    flex-basis: 100px;
     background-color: red;
     padding: 16px 42px 16px 42px;
     border: 10px solid black;
-    margin: 20px;
+    margin: 10px;
 }
 
-.box:last-child {
-    background-color: blue;
+.item:nth-child(2) {
+    flex-grow: 1;
 }
-
-.box:nth-child(2) {
-    background-color: blue;
-}
-

@@ -16,5 +16,8 @@
 }
 
 .item:nth-child(2) {
-    flex-grow: 1;
+    order: 0;
+    flex-basis: 50px;
+    height: 50px;
+    align-self: flex-end;
 }

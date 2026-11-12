@@ -190,6 +190,7 @@ overflow:hidden;
 /*sections-traditions*/
 .traditions-section {
     padding-top: 96px;
+    padding-bottom: 42px;
 }
 
 .traditions-container {
@@ -208,6 +209,7 @@ overflow:hidden;
 
 .sections-text {
     color: var(--color-primary-dark);
+    margin-bottom: 42px;
 }   
 
 .sections-text .accent {
@@ -221,9 +223,23 @@ overflow:hidden;
 
 .sections-text-limited {
   max-width: 340px;
+  margin-bottom: 52px;
 }
 
 /*chefs-section*/
+ .chefs-list {
+    display: flex;
+    gap: 30px;
+ }
+ 
+.chef{
+    display: flex;
+    gap: 30px;
+}
+
+.chef-content {
+    max-width: 334px;
+}
 .chefs-title {
     margin-bottom: 80px;
 }
@@ -240,6 +256,7 @@ overflow:hidden;
 
 .formats-list {
     display: flex;
+    justify-content: space-between;
     gap: 20px;
 }
 .format {
@@ -250,6 +267,7 @@ overflow:hidden;
 }
 
 .format-title {
+    margin-top: 248px;
     margin-bottom: 16px;
     font-size: 24px;
     font-weight: 600;

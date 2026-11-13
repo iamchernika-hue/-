@@ -237,6 +237,10 @@ overflow:hidden;
     gap: 30px;
 }
 
+.chef-item {
+   flex-basis:calc((100%-30px) /2);
+}
+
 .chef-content {
     max-width: 334px;
 }
@@ -251,14 +255,20 @@ overflow:hidden;
 
 /*format-section*/
 .formats-title {
+    text-align: center;
     margin-bottom: 80px;
 }
 
 .formats-list {
     display: flex;
-    justify-content: space-between;
     gap: 20px;
+    flex-wrap: wrap;
 }
+
+.format-item {
+    flex-basis:calc((100% - 40px) / 3);
+}
+
 .format {
     color: var(--color-primary-white);
     padding: 24px;
@@ -279,6 +289,9 @@ overflow:hidden;
 }
 
 /*contact-section*/
+.contacts-section{
+    display: flex;
+}
 .contacts-title {
     margin-bottom: 16px;
 }

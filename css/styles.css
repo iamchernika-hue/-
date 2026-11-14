@@ -289,20 +289,54 @@ overflow:hidden;
 }
 
 /*contact-section*/
-.contacts-section{
+.contacts-container{
     display: flex;
+    gap: 32px;
 }
 .contacts-title {
+    text-align: center;
     margin-bottom: 16px;
 }
 
+.contacts-form-disription{
+    text-align: center;
+}
+
+.contacts-button {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 16px;
+ }
+
 .contacts-privacy {
+    text-align: center;
     font-size: 12px;
     font-weight: 400;
     line-height: 3;
 }
 
 /* footer*/
+.footer-section{
+    background-color: lightgrey;
+}
+
+.footer-container {
+    display: flex;
+    gap: 166px;
+}
+
+.footer-nav{
+    display: flex;
+    flex-grow: 1;
+    gap: 166px;
+}
+
+.footer-address {
+    display: flex;
+    flex-grow: 1;
+    gap: 166px;
+}
+
 .address-link {
     color: var(--color-primary-white);
     font-size: 16px;

@@ -137,6 +137,10 @@ overflow:hidden;
 /*hero-section*/
  .hero-section {
    padding: 272px 0 ;
+   background-image:url(/images/hero-section-background.jpg) ;
+   background-repeat: no-repeat;
+   background-position: center top;
+   background-size: cover;
  }
 
  .hero-title {
@@ -174,6 +178,7 @@ overflow:hidden;
  }
 /*sections-title*/
 .sections-title {
+    text-align: center;
     font-size: 64px;
     font-weight: 900;
     line-height: 1.3;
@@ -317,7 +322,12 @@ overflow:hidden;
 
 /* footer*/
 .footer-section{
-    background-color: lightgrey;
+    background-image: url(/images/footer.png);
+    background-color: var(--color-primary-dark);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
 }
 
 .footer-container {
@@ -326,15 +336,24 @@ overflow:hidden;
 }
 
 .footer-nav{
+    margin-top: 32px;
     display: flex;
     flex-grow: 1;
     gap: 166px;
 }
 
 .footer-address {
+    margin-top: 32px;
+
     display: flex;
     flex-grow: 1;
     gap: 166px;
+}
+
+.footer-cocial-link {
+    display: flex;
+    gap: 22px
+;
 }
 
 .address-link {

@@ -242,10 +242,14 @@ overflow:hidden;
   margin-bottom: 52px;
 }
 
+.traditionals-imeges{
+    border-radius:400px 400px 0px 0px;
+}
+
 /*chefs-section*/
  .chefs-list {
     display: flex;
-    gap: 242px;
+    gap: 30px;
  }
  
 .chef{
@@ -254,11 +258,7 @@ overflow:hidden;
 }
 
 .chef-item {
-   flex-basis:calc((100%-30px) /2);
-}
-
-.chef-content {
-    max-width: 334px;
+   flex-basis:calc((100% - 30px) /2);
 }
 
 .chefs-title::before{
@@ -311,6 +311,7 @@ overflow:hidden;
    display: flex;
    align-items: center;
    justify-content: center;
+   fill: var(--color-primary-dark);
    width: 44px;
    height: 44px;
    padding: 0px;
@@ -320,15 +321,8 @@ overflow:hidden;
    cursor: pointer;
 }
 
-.carousel-icon{
-    fill: var(--color-primary-dark);
-}
-
 .carousel-button:hover {
     background-color: var(--color-primary-dark);
-}
-
-.carousel-button:hover .carousel-icon{
     fill: var(--color-primary-white);
 }
 
